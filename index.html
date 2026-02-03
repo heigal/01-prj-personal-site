@@ -2,10 +2,114 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Personal Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#home" class="logo-link"><img src="img/Logo (2).png" alt="Logo" class="nav-logo"></a>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <div class="container">
+      <!-- Circular profile image -->
+      <div class="home-image">
+        <img src="img/profile pic.jpg" alt="Profile pic">
+      </div>
+      <div class="home-text-box">
+        <h2>Home</h2>
+        <p>Aspiring web developer - Mexican American - Illustrator </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-content">
+        <!-- Image on the left -->
+        <div class="about-image">
+          <img src="img/Looking Forward.png" alt="Looking Forward">
+        </div>
+        <!-- Text on the right -->
+        <div class="about-text">
+          <div class="about-text-box">
+            <h2>About Me</h2>
+            <p>My name is Heidi Galvan, I am a first generation, freshman college student at FAU. </p>
+            <p>Striving to work in web development and game design. Currently, complete beginner at coding. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Certifications</h2>
+      <div class="skills-list">
+        <!-- Each skill item -->
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" alt="Illustrator icon" class="skill-icon">
+          <h3>Adobe Illustrator</h3>
+        <p>Vector graphics</p>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop icon" class="skill-icon">
+          <h3>Adobe Photoshop</h3>
+        <p> Photo editing</p>
+        </div>
+        <div class="skill-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-plain.svg" alt="Animate icon" class="skill-icon">
+          <h3>Adobe Animate</h3>
+          <p>Animation and interactivity</p>
+        </div>
+        <div class="skill-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Adobe_InDesign_CC_icon.svg" alt="InDesign icon" class="skill-icon">
+          <h3>Adobe InDesign
+          </h3>
+          <p>Page layout and design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="gallery">
+        <img src="img/Background.png" alt="Background" class="background-img">
+        <img src="img/Color Study (1).png" alt="Color Study">
+        <img src="img/Observational Study.png" alt="Observational Study">
+        <img src="img/child hood.jpg" alt="Childhood" class="childhood-img">
+        <img src="img/me.PNG" alt="Me" class="me-img">
+        <img src="img/otherstiill.jpg" alt="Still Life">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h3>Contact Me</h3>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/heidigalvan" target="_blank" class="linkedin-link">LinkedIn</a>
+    </div>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
